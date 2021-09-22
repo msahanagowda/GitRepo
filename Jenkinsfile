@@ -17,9 +17,9 @@ pipeline {
                 bat 'file2.bat'
             }
         }
-        stage('file2'){
+        stage('file3'){
             steps{
-                bat 'file2.bat'
+                bat 'file3.bat'
             }
         }
     }
